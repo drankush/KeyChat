@@ -5,7 +5,7 @@ from PIL import Image
 import base64
 import requests
 
-st.set_page_config(page_title='GPT-4 Vision', page_icon='👁️')
+st.set_page_config(page_title='KeyChat', page_icon='🗝')
 
 # Initialize session state
 if 'history' not in st.session_state:
@@ -104,7 +104,7 @@ with st.sidebar.expander("Advanced Settings"):
     max_tokens = st.slider('Max Token Output', 100, 1000, 300)
 
 # --- Main Content ---
-st.markdown('# Multimodal Chat Client 🤖')
+st.markdown('# KeyChat Client 🤖')
 
 # Image Generation Toggle
 st.session_state['image_gen_mode'] = st.toggle("Image Generation Mode")
