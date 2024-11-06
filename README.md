@@ -22,7 +22,7 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/drankush/multimodal-chat-client.git  # Replace with your repository URL
+   git clone https://github.com/drankush/KeyChat/.git 
    cd keychat
    ```
 
@@ -32,12 +32,6 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
    pip install -r requirements.txt
    ```
 
-3. **Create a `.streamlit/secrets.toml` file:** Securely store your OpenAI API key in this file.  You can also optionally pre-populate the base URL here. Example:
-
-   ```toml
-   OPENAI_API_KEY = "your-openai-api-key"
-   BASE_URL = "https://api.openai.com/v1" # Optional - If not specified user will need to enter at runtime
-   ```
 
 ## Usage 🚀
 
@@ -47,7 +41,7 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
    streamlit run keychat.py
    ```
 
-2. **Enter your OpenAI API key:** In the sidebar, enter your API key (if not already in `secrets.toml`). You may also change the Base URL here if needed. 🔑
+2. **Enter your OpenAI API key and Base URL:** In the sidebar, enter your API key and the base URL for the API endpoint. 🔑
 3. **Fetch Models:** Click the "Fetch Models" button to retrieve the available text/vision and image generation models. 🔄
 4. **Select Models:** Choose your desired text/vision model and image generation model from the dropdown menus in the sidebar.  ⬇️
 5. **Optional: Set System Message:** Provide a system message in the sidebar to guide the LLM's responses. 🤖💬
