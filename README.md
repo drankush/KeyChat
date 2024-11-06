@@ -46,10 +46,22 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
 4. **Select Models:** Choose your desired text/vision model and image generation model from the dropdown menus in the sidebar.  ⬇️
 5. **Optional: Set System Message:** Provide a system message in the sidebar to guide the LLM's responses. 🤖💬
 6. **Optional: Adjust Advanced Settings:** Customize the temperature, max tokens, and image detail in the sidebar. 🌡️
+
+
+<p align="center">
+  <img src="images/image1.jpg" alt="application gui" />
+</p>
+
+
 7. **Enter your prompt:** Type your message in the text input area.  📝
 8. **Optional: Upload Images:** Upload images using the file uploader. Supported formats: .jpg, .png, .gif, .webp 🖼️⬆️
 9. **Send your message:** Click the "Send" button to submit your prompt and/or images to the selected model. 🚀
 10. **Toggle Image Generation Mode:** Use the toggle to switch between Text/Vision Chat and Image Generation mode. In Image Generation mode, only the text input will be used as the prompt to generate an image. 🖼️
+
+<p align="center">
+  <img src="images/image2.jpg" alt="application gui" />
+</p>
+
 11. **Clear the chat:** Click the "Clear" button to erase the chat history. 🧹
 
 
