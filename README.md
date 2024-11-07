@@ -32,13 +32,19 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
    pip install -r requirements.txt
    ```
 
+3. **Demo:**
+
+   ```bash
+   https://keychat.streamlit.app/
+   ```
+
 
 ## Usage 🚀
 
 1. **Run the app:**
 
    ```bash
-   streamlit run keychat.py
+   streamlit run app.py
    ```
 
 2. **Enter your OpenAI API key and Base URL:** In the sidebar, enter your API key and the base URL for the API endpoint. 🔑
