@@ -65,7 +65,7 @@ KeyChat is a versatile chat application built with Streamlit that allows you to 
 10. **Toggle Image Generation Mode:** Use the toggle to switch between Text/Vision Chat and Image Generation mode. In Image Generation mode, only the text input will be used as the prompt to generate an image. 🖼️
 
 <p align="center">
-  <img src="images/image2.jpg" alt="application gui" />
+  <img src="images/image2.jpg" alt="application gui" width="50%" height="50%" />
 </p>
 
 11. **Clear the chat:** Click the "Clear" button to erase the chat history. 🧹
